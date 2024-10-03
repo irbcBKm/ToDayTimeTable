@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日の時間割by沖縄高専</title>
+
+    <link rel="apple-touch-icon" href="image/icon.png">
+    <link rel="icon" href="image/icon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="load()">
+<div id="main">
+    <div id="hedder">
+        <h1>今日の時間割by沖縄高専</h1>
+        <span id="today"></span>
+    </div>
+    <!-- 学年選択用ドロップダウン -->
+    <div>
+        学年
+        <select id="year" onchange="setData()">
+            <option value="01">1年</option>    
+            <option value="02">2年</option>
+            <option value="03">3年</option>
+            <option value="04">4年</option>
+            <option value="05">5年</option>
+            <option value="11">専攻科1年</option>
+            <option value="12">専攻科2年</option>
+        </select>
+    </div>
+    <!-- 画像表示 -->
+    <div class="tab-1">
+        <label>
+            <input type="radio" name="tab-1">
+            月曜日
+        </label>
+        <div>
+            <div class="timetable">
+                <img id="Mon" class="timetablefig">
+            </div>
+        </div>
+        <label>
+            <input type="radio" name="tab-1">
+            火曜日
+        </label>
+        <div>
+            <div class="timetable">
+                <img id="Tue" class="timetablefig">
+            </div>
+        </div>
+        <label>
+            <input type="radio" name="tab-1">
+            水曜日
+        </label>
+        <div>
+            <div class="timetable">
+                <img id="Wed" class="timetablefig">
+            </div>
+        </div>
+        <label>
+            <input type="radio" name="tab-1">
+            木曜日
+        </label>
+        <div>
+            <div class="timetable">
+                <img id="Thu" class="timetablefig">
+            </div>
+        </div>
+        <label>
+            <input type="radio" name="tab-1">
+            金曜日
+        </label>
+        <div>
+            <div class="timetable">
+                <img id="Fri" class="timetablefig">
+            </div>
+        </div>
+    </div>
+    <!-- github  -->
+</div>
+</body>
+</html>
