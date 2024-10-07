@@ -6,11 +6,11 @@ const daystr =["日","月","火","水","木","金","土"]
 
 function setFig(){
     //取得した値をもとに表示する画像のパスを格納
-    var figMon = "image/" + n + "_Mon.png";
-    var figTue = "image/" + n + "_Tue.png";
-    var figWed = "image/" + n + "_Wed.png";
-    var figThu = "image/" + n + "_Thu.png";
-    var figFri = "image/" + n + "_Fri.png";
+    var figMon = "image/" + n + "_Mon.jpg";
+    var figTue = "image/" + n + "_Tue.jpg";
+    var figWed = "image/" + n + "_Wed.jpg";
+    var figThu = "image/" + n + "_Thu.jpg";
+    var figFri = "image/" + n + "_Fri.jpg";
 
     //時間割画像の表示
     document.getElementById('Mon').src= figMon;
